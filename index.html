@@ -22,7 +22,7 @@
       width: 100%;
       height: 100%;
       overflow: hidden;
-      background-color: #ffffff; /* Fondo blanco para que no se vea oscuro ni cortado */
+      background-color: #f1f5f9;
       font-family: system-ui, -apple-system, sans-serif;
     }
     .frame-box {
@@ -30,16 +30,16 @@
       width: 100vw;
       height: 100vh;
       overflow: hidden;
-      background-color: #ffffff;
+      background-color: #f1f5f9;
     }
     .frame-box iframe {
       position: absolute;
-      top: -28px; /* Ajusta este número: -20px deja más margen arriba, -36px recorta más */
+      top: 18px; /* Sube o baja el panel: usa 24px para más espacio arriba o 10px para menos */
       left: 0;
       width: 100%;
-      height: calc(100% + 28px);
+      height: calc(100% - 18px);
       border: 0;
-      background-color: #ffffff;
+      background-color: transparent;
     }
     #loading {
       position: fixed;
