@@ -1,0 +1,16 @@
+{
+  "name": "Control de Personal",
+  "short_name": "Control Personal",
+  "description": "Aplicación web instalada desde el navegador",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
