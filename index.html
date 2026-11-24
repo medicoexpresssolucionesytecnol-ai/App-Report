@@ -22,7 +22,7 @@
       width: 100%;
       height: 100%;
       overflow: hidden;
-      background-color: #0f172a;
+      background-color: #ffffff; /* Fondo blanco para que no se vea oscuro ni cortado */
       font-family: system-ui, -apple-system, sans-serif;
     }
     .frame-box {
@@ -30,14 +30,16 @@
       width: 100vw;
       height: 100vh;
       overflow: hidden;
+      background-color: #ffffff;
     }
     .frame-box iframe {
       position: absolute;
-      top: -44px;
+      top: -28px; /* Ajusta este número: -20px deja más margen arriba, -36px recorta más */
       left: 0;
       width: 100%;
-      height: calc(100% + 44px);
+      height: calc(100% + 28px);
       border: 0;
+      background-color: #ffffff;
     }
     #loading {
       position: fixed;
